@@ -1,0 +1,60 @@
+.main-container {
+    background-color: #1f2732;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.advice-container {
+    padding: 20px;
+    border-radius: 10px;
+    width: 30vw;
+    height: 35vh;
+    background-color: #313a49;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.advice-generator {
+    border-style: none;
+    background-color: #71f6ab;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 48.5%;
+    bottom: 27%;
+}
+
+.text-here{
+    margin-top: 30px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.advice-number {
+    letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #71f6ab;
+}
+
+.border {
+    margin-top: 20px;
+    width: 25vw;
+    border-top: 1px solid white;
+}
+
+@media (max-width: 390px)
+{
+  .advice-generator
+   {
+    position: absolute;
+    left: 47%;
+    bottom: 30%;
+   }
+}
